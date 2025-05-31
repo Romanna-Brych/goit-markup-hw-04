@@ -331,8 +331,8 @@ img {
   fill: #f4f4fd;
 }
 
-.team-item:hover .team-icon-link,
-.team-item:focus .team-icon-link {
+.team-icon-link:hover,
+.team-icon-link:focus {
   background-color: #404bbf;
 }
 
