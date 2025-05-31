@@ -316,14 +316,15 @@ img {
   align-items: center;
   border-radius: 50%;
   box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon {
   fill: #ffffff;
 }
 
-.team-info:hover .team-icon-item,
-.team-info:focus .team-icon-item {
+.team-item:hover .team-icon-item,
+.team-item:focus .team-icon-item {
   background-color: #404bbf;
 }
 
